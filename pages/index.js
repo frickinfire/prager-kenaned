@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <img src="https://ntvb.tmsimg.com/assets/assets/73227_v9_bb.jpg?w=270&h=360">
+        <image src="https://ntvb.tmsimg.com/assets/assets/73227_v9_bb.jpg?w=270&h=360"/>
         <p className="description">
          Get Kenaned, Dennis
         </p>
