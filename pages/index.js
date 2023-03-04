@@ -6,14 +6,14 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Kenan Thompson Fanpage</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <img src="https://ntvb.tmsimg.com/assets/assets/73227_v9_bb.jpg?w=270&h=360">
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+         Get Kenaned, Dennis
         </p>
       </main>
 
