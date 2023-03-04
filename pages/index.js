@@ -1,17 +1,21 @@
-import Image from 'next/image'
+import Head from 'next/head'
+import Header from '@components/Header'
+import Footer from '@components/Footer'
 
-const myLoader = ({ src, width, quality }) => {
-  return `https://example.com/${src}?w=${width}&q=${quality || 75}`
-}
-
-const MyImage = (props) => {
+export default function Home() {
   return (
-    <Image
-      loader={myLoader}
-      src="https://ntvb.tmsimg.com/assets/assets/73227_v9_bb.jpg?w=270&h=360"
-      alt="kenan"
-      width={500}
-      height={500}
-    />
+    <div className="container">
+      <Head>
+        <title>Kenan Thompson Fanpage</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <main>
+        <image src="https://ntvb.tmsimg.com/assets/assets/73227_v9_bb.jpg?w=270&h=360"/>
+        <p className="description">
+         Get Kenaned, Dennis
+        </p>
+      </main>
+    </div>
   )
 }
